@@ -14,7 +14,6 @@ class App extends Component {
       <Router>
         <div className="App">
           <Navbar />
-          <h1>VOTING APP</h1>
 
           <Route exact path="/" component={Landing} />
           <div className="container">
